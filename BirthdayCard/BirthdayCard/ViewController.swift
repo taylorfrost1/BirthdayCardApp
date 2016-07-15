@@ -47,6 +47,8 @@ class ViewController: UIViewController {
         
         controller?.recievedImage = self.pickedImage
         
+        //Recieved image is a optional variable created at the top of the controller we're passing the object to. Picked image is a optional variable at the top of the current view controller.
+        
     }
     
 }
