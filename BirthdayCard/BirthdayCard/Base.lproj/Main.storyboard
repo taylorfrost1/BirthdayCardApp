@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mf3-nJ-6O1">
-                                <rect key="frame" x="150" y="120" width="300" height="150"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mf3-nJ-6O1">
+                                <rect key="frame" x="150" y="164" width="300" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="ZJq-dH-7yc"/>
                                     <constraint firstAttribute="height" constant="150" id="zHz-Gm-Gir"/>
@@ -28,8 +28,8 @@
                                     <action selector="buttonOneTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ywt-j8-Zsc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2d-ms-w9Z">
-                                <rect key="frame" x="150" y="290" width="300" height="150"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2d-ms-w9Z">
+                                <rect key="frame" x="150" y="334" width="300" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="88u-jl-gIk"/>
                                     <constraint firstAttribute="height" constant="150" id="yCU-zU-Abc"/>
@@ -39,8 +39,14 @@
                                     <action selector="ButtonTwoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EFf-3A-CsL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7o-Lx-0je">
-                                <rect key="frame" x="150" y="460" width="300" height="150"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Birthday Color!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iF-Fe-PJw">
+                                <rect key="frame" x="143" y="92" width="314" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7o-Lx-0je">
+                                <rect key="frame" x="150" y="504" width="300" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="FST-Md-Ecx"/>
                                     <constraint firstAttribute="height" constant="150" id="qaa-Qs-601"/>
@@ -50,12 +56,6 @@
                                     <action selector="buttonThreeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GUD-0p-0gE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please Pick a Background" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iF-Fe-PJw">
-                                <rect key="frame" x="157" y="48" width="287" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -90,9 +90,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A42-kd-ef1">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irk-hR-hC6">
                                 <rect key="frame" x="240" y="519" width="121" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -101,15 +98,26 @@
                                     <action selector="button1:" destination="bpg-pg-S6B" eventType="touchUpInside" id="qIS-o5-RUY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a Selfie! Then Click Continue!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVp-2E-QFL">
+                                <rect key="frame" x="108" y="97" width="385" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A42-kd-ef1">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="irk-hR-hC6" firstAttribute="centerX" secondItem="A42-kd-ef1" secondAttribute="centerX" id="AZb-pu-0Mk"/>
+                            <constraint firstItem="xVp-2E-QFL" firstAttribute="centerX" secondItem="A42-kd-ef1" secondAttribute="centerX" id="EdN-Su-yKd"/>
                             <constraint firstItem="A42-kd-ef1" firstAttribute="leading" secondItem="qcs-SE-njH" secondAttribute="leading" id="I6F-mx-XXy"/>
                             <constraint firstItem="Vjc-83-edU" firstAttribute="top" secondItem="A42-kd-ef1" secondAttribute="bottom" id="NsO-4s-wTp"/>
                             <constraint firstItem="A42-kd-ef1" firstAttribute="top" secondItem="2IH-Ne-YSt" secondAttribute="bottom" id="T5X-Nb-obn"/>
                             <constraint firstAttribute="trailing" secondItem="A42-kd-ef1" secondAttribute="trailing" id="pYK-rY-fGd"/>
                             <constraint firstItem="irk-hR-hC6" firstAttribute="top" secondItem="A42-kd-ef1" secondAttribute="bottom" constant="-81" id="tIf-se-W8g"/>
+                            <constraint firstItem="A42-kd-ef1" firstAttribute="top" secondItem="xVp-2E-QFL" secondAttribute="bottom" constant="-63" id="ygB-9y-IxE"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Bfh-r0-dbB">
@@ -146,20 +154,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IkS-rC-Gs5">
                                 <rect key="frame" x="0.0" y="214" width="600" height="386"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="CfP-G6-VNb" customClass="FirstImageView" customModule="BirthdayCard" customModuleProvider="target">
-                                <rect key="frame" x="362" y="126" width="80" height="80"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="M9y-Rd-xOJ" customClass="FirstImageView" customModule="BirthdayCard" customModuleProvider="target">
-                                <rect key="frame" x="260" y="126" width="80" height="80"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy Birthday!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0g-7J-vGV">
-                                <rect key="frame" x="158" y="72" width="284" height="48"/>
+                                <rect key="frame" x="158" y="114" width="284" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="G6D-hI-vaw" customClass="FirstImageView" customModule="BirthdayCard" customModuleProvider="target">
-                                <rect key="frame" x="71" y="135" width="80" height="80"/>
+                                <rect key="frame" x="271" y="177" width="135" height="230"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -167,7 +169,7 @@
                             <constraint firstItem="NAw-uc-O1z" firstAttribute="leading" secondItem="WsI-fQ-bbv" secondAttribute="leading" id="3fX-9s-zAn"/>
                             <constraint firstItem="j0g-7J-vGV" firstAttribute="centerX" secondItem="WsI-fQ-bbv" secondAttribute="centerX" id="4Qw-3X-X2S"/>
                             <constraint firstItem="NAw-uc-O1z" firstAttribute="top" secondItem="3BZ-JY-gmM" secondAttribute="bottom" id="Aog-zT-Z9C"/>
-                            <constraint firstItem="j0g-7J-vGV" firstAttribute="top" secondItem="3BZ-JY-gmM" secondAttribute="bottom" constant="8" id="FUM-9c-EK1"/>
+                            <constraint firstItem="j0g-7J-vGV" firstAttribute="top" secondItem="3BZ-JY-gmM" secondAttribute="bottom" constant="50" id="FUM-9c-EK1"/>
                             <constraint firstItem="IkS-rC-Gs5" firstAttribute="leading" secondItem="WsI-fQ-bbv" secondAttribute="leading" id="KAY-AH-F5z"/>
                             <constraint firstItem="IkS-rC-Gs5" firstAttribute="top" secondItem="3BZ-JY-gmM" secondAttribute="bottom" constant="150" id="ObA-yB-7zT"/>
                             <constraint firstAttribute="trailing" secondItem="NAw-uc-O1z" secondAttribute="trailing" id="Rgo-5A-IMf"/>

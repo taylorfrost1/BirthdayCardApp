@@ -30,7 +30,7 @@ class ThirdViewController: UIViewController {
         
         self.thirdSelfieImageView.image = self.thirdReceivedSelfie
         
-        self.thirdSelfieImageView.contentMode = .ScaleAspectFit
+//        self.thirdSelfieImageView.contentMode = .ScaleAspectFit
         
         self.backgroundPlayer = self.getAudioPlayer("groovyhiphop", fileExt:
             "mp3")
