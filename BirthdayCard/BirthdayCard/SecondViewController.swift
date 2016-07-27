@@ -24,6 +24,7 @@ class SecondViewController: UIViewController, UINavigationControllerDelegate, UI
         super.viewDidLoad()
         
         self.imagePicker.delegate = self
+
         
     }
     

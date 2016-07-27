@@ -124,6 +124,7 @@
 				TargetAttributes = {
 					FDE9D5BA1D380CCE00E4C395 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5B22GCUFZ7;
 					};
 				};
 			};
@@ -281,9 +282,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BirthdayCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FrostEnterprises.BirthdayCard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.BirthdayCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -292,9 +295,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BirthdayCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FrostEnterprises.BirthdayCard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.BirthdayCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
